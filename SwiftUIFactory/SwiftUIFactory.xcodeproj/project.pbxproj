@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E4023F22B14D78F003CEE0D /* Symbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4023F12B14D78F003CEE0D /* Symbols.swift */; };
 		4E41F0002B14A4950068CB40 /* SwiftUIFactoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E41EFFF2B14A4950068CB40 /* SwiftUIFactoryApp.swift */; };
 		4E41F0022B14A4950068CB40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E41F0012B14A4950068CB40 /* ContentView.swift */; };
 		4E41F0042B14A4960068CB40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E41F0032B14A4960068CB40 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 		4E41F0112B14A4960068CB40 /* SwiftUIFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E41F0102B14A4960068CB40 /* SwiftUIFactoryTests.swift */; };
 		4E41F01B2B14A4960068CB40 /* SwiftUIFactoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E41F01A2B14A4960068CB40 /* SwiftUIFactoryUITests.swift */; };
 		4E41F01D2B14A4960068CB40 /* SwiftUIFactoryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E41F01C2B14A4960068CB40 /* SwiftUIFactoryUITestsLaunchTests.swift */; };
+		4ECABA722B14B6ED009E8907 /* VerticalScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECABA712B14B6ED009E8907 /* VerticalScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E4023F12B14D78F003CEE0D /* Symbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbols.swift; sourceTree = "<group>"; };
 		4E41EFFC2B14A4950068CB40 /* SwiftUIFactory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIFactory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E41EFFF2B14A4950068CB40 /* SwiftUIFactoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIFactoryApp.swift; sourceTree = "<group>"; };
 		4E41F0012B14A4950068CB40 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +47,7 @@
 		4E41F0162B14A4960068CB40 /* SwiftUIFactoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIFactoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E41F01A2B14A4960068CB40 /* SwiftUIFactoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIFactoryUITests.swift; sourceTree = "<group>"; };
 		4E41F01C2B14A4960068CB40 /* SwiftUIFactoryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIFactoryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4ECABA712B14B6ED009E8907 /* VerticalScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				4E41EFFF2B14A4950068CB40 /* SwiftUIFactoryApp.swift */,
+				4ECABA712B14B6ED009E8907 /* VerticalScrollView.swift */,
+				4E4023F12B14D78F003CEE0D /* Symbols.swift */,
 				4E41F0012B14A4950068CB40 /* ContentView.swift */,
 				4E41F0032B14A4960068CB40 /* Assets.xcassets */,
 				4E41F0052B14A4960068CB40 /* Preview Content */,
@@ -258,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E41F0022B14A4950068CB40 /* ContentView.swift in Sources */,
+				4E4023F22B14D78F003CEE0D /* Symbols.swift in Sources */,
 				4E41F0002B14A4950068CB40 /* SwiftUIFactoryApp.swift in Sources */,
+				4ECABA722B14B6ED009E8907 /* VerticalScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +430,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIFactory/Preview Content\"";
+				DEVELOPMENT_TEAM = X5QPQ583EG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -450,6 +459,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIFactory/Preview Content\"";
+				DEVELOPMENT_TEAM = X5QPQ583EG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
