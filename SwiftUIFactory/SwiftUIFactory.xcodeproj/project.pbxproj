@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E28DF322B1A18C000B1BFB2 /* SymbolEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E28DF312B1A18C000B1BFB2 /* SymbolEffectView.swift */; };
 		4E4023F22B14D78F003CEE0D /* Symbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4023F12B14D78F003CEE0D /* Symbols.swift */; };
 		4E41F0002B14A4950068CB40 /* SwiftUIFactoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E41EFFF2B14A4950068CB40 /* SwiftUIFactoryApp.swift */; };
 		4E41F0022B14A4950068CB40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E41F0012B14A4950068CB40 /* ContentView.swift */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E28DF312B1A18C000B1BFB2 /* SymbolEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolEffectView.swift; sourceTree = "<group>"; };
+		4E28DF332B1A199800B1BFB2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4E4023F12B14D78F003CEE0D /* Symbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbols.swift; sourceTree = "<group>"; };
 		4E41EFFC2B14A4950068CB40 /* SwiftUIFactory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIFactory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E41EFFF2B14A4950068CB40 /* SwiftUIFactoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIFactoryApp.swift; sourceTree = "<group>"; };
@@ -78,6 +81,7 @@
 		4E41EFF32B14A4950068CB40 = {
 			isa = PBXGroup;
 			children = (
+				4E28DF332B1A199800B1BFB2 /* README.md */,
 				4E41EFFE2B14A4950068CB40 /* SwiftUIFactory */,
 				4E41F00F2B14A4960068CB40 /* SwiftUIFactoryTests */,
 				4E41F0192B14A4960068CB40 /* SwiftUIFactoryUITests */,
@@ -100,6 +104,7 @@
 			children = (
 				4E41EFFF2B14A4950068CB40 /* SwiftUIFactoryApp.swift */,
 				4ECABA712B14B6ED009E8907 /* VerticalScrollView.swift */,
+				4E28DF312B1A18C000B1BFB2 /* SymbolEffectView.swift */,
 				4E4023F12B14D78F003CEE0D /* Symbols.swift */,
 				4E41F0012B14A4950068CB40 /* ContentView.swift */,
 				4E41F0032B14A4960068CB40 /* Assets.xcassets */,
@@ -266,6 +271,7 @@
 				4E41F0022B14A4950068CB40 /* ContentView.swift in Sources */,
 				4E4023F22B14D78F003CEE0D /* Symbols.swift in Sources */,
 				4E41F0002B14A4950068CB40 /* SwiftUIFactoryApp.swift in Sources */,
+				4E28DF322B1A18C000B1BFB2 /* SymbolEffectView.swift in Sources */,
 				4ECABA722B14B6ED009E8907 /* VerticalScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

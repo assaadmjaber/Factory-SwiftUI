@@ -16,10 +16,9 @@ struct VerticalScrollView: View {
         ScrollView {
             VStack(alignment: .leading) {
                 ForEach(0..<30) { n in
-                    Image(systemName: symbols[0])
-                        .symbolEffect(.variableColor, options: .nonRepeating, isActive: isActive).onTapGesture {
-                            isActive.toggle()
-                        }
+                    SymbolEffectView(isActive: isActive).onTapGesture {
+                        isActive.toggle()
+                    }
                 }
             }
         }
